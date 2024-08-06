@@ -16,6 +16,13 @@ def draw_plot():
     y_pred = res.slope * x_pred + res.intercept
     plt.plot(x_pred, y_pred, 'r')
     
+    # Create second line of best fit
+    df_2000 = df[df['Year'] >= 2000]
+    res_2000 = linregress(df_2000['Year'], df_2000['CSIRO Adjusted Sea Level'])
+    x_pred_2000 = pd.Series([i for i in range(2000, 2051)])
+    y_pred_2000 = res_2000.slope * x_pred_2000 + res_2000.intercept
+    plt.plot(x_pred_2000, y_pred_2000, 'g')
+    
     # Save plot and return data for testing (DO NOT MODIFY)
     plt.savefig('sea_level_plot.png')
     return plt.gca()
