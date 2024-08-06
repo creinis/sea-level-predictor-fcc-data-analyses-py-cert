@@ -3,9 +3,9 @@
 ###### Technologies:
 <p align="center">
 <img src="https://img.icons8.com/color/75/000000/python.png" width="75" height="75" alt="Python" style="margin: 10px 15px 0 15px;" />
-<img src="https://pandas.pydata.org/static/img/pandas_white.svg" height="50" alt="Pandas" style="margin: 10px 15px 0 15px;" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Created_with_Matplotlib-logo.svg/1024px-Created_with_Matplotlib-logo.svg.png" height="50" alt="Matplotlib" style="margin: 10px 15px 0 15px;" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Scipy_logo.svg/1024px-Scipy_logo.svg.png" height="50" alt="SciPy" style="margin: 10px 15px 0 15px;" />
+<img src="https://pandas.pydata.org/static/img/pandas_white.svg" height="75" alt="Pandas" style="margin: 10px 15px 0 15px;" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Created_with_Matplotlib-logo.svg/1024px-Created_with_Matplotlib-logo.svg.png" height="75" alt="Matplotlib" style="margin: 10px 15px 0 15px;" />
+<img src="https://cdn.imgbin.com/11/6/18/imgbin-scipy-numpy-python-scikit-learn-pip-others-c9FaTM0MUiWNkTet9rjDyRqLv.jpg" height="75" alt="SciPy" style="margin: 10px 15px 0 15px;" />
 </p>
 
 ### Try it!
