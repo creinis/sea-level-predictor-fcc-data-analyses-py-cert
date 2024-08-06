@@ -23,6 +23,11 @@ def draw_plot():
     y_pred_2000 = res_2000.slope * x_pred_2000 + res_2000.intercept
     plt.plot(x_pred_2000, y_pred_2000, 'g')
     
+    # Add labels and title
+    plt.xlabel('Year')
+    plt.ylabel('Sea Level (inches)')
+    plt.title('Rise in Sea Level')
+    
     # Save plot and return data for testing (DO NOT MODIFY)
     plt.savefig('sea_level_plot.png')
     return plt.gca()
